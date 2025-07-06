@@ -1,7 +1,7 @@
 # SAAG (Silent as a Ghost)
 
-![image](./saag.png)
+![image](./assets/saag.png)
 
-# Goal
+## Intro
 
 Be honest, we both know what we are aiming to... 🤡
