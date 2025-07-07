@@ -1,3 +1,6 @@
 package config
 
-const StagingDir = "/tmp/.saag"
+const (
+	AppVersion = "0.0.0"
+	StagingDir = "/tmp/.saag"
+)

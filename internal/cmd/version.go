@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/alireza12prom/SAAG/internal/config"
 	"github.com/spf13/cobra"
 )
 
@@ -17,8 +18,5 @@ func init() {
 }
 
 func VersionLogic(cmd *cobra.Command, args []string) {
-	// FIXME: use a global variable
-	const version = "0.0.0"
-
-	fmt.Printf("SAAG - Silent As A Ghost\nVersion: %s\n", version)
+	fmt.Printf("SAAG - Silent As A Ghost\nVersion: %s\n", config.AppVersion)
 }
