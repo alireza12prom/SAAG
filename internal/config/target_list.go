@@ -24,6 +24,40 @@ var browsers = []string{
 	".var/app/com.opera.Opera/config/opera/",
 }
 
+var shell = []string{
+	// Bash
+	".bash_history",
+	".bashrc",
+	".bash_profile",
+	".profile",
+	".inputrc",
+
+	// Zsh
+	".zsh_history",
+	".zshrc",
+	".zprofile",
+	".zlogin",
+	".zshenv",
+	".zlogout",
+	".zcompdump",
+
+	// Fish
+	".config/fish/fish_history",
+	".config/fish/config.fish",
+	".config/fish/functions/",
+	".config/fish/completions/",
+	".local/share/fish/fish_history",
+
+	// Other
+	".kshrc",
+	".mkshrc",
+	".ash_history",
+	".tcshrc",
+	".cshrc",
+	".history",
+}
+
 var TargetList = [][]string{
 	browsers,
+	shell,
 }
