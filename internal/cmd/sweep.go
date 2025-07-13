@@ -39,7 +39,7 @@ func VacuumLogic(cmd *cobra.Command, args []string) {
 		os.Exit(0)
 	}
 
-	for _, white_list := range config.WhiteList {
+	for _, white_list := range config.TargetList {
 		for _, dir := range white_list {
 			src := path.Join(info.Home, dir)
 

@@ -24,6 +24,6 @@ var browsers = []string{
 	".var/app/com.opera.Opera/config/opera/",
 }
 
-var WhiteList = [][]string{
+var TargetList = [][]string{
 	browsers,
 }
